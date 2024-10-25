@@ -17,3 +17,19 @@ const items = [1, [2, 3, [4]]];
 const newItems = _.flattenDeep(items);
 
 console.log(newItems);
+
+
+// for setting up dev dependencies ->   npm i <packageName> -D
+// example   ->   npm i nodemon -D
+
+// dependencies ->  packages that are required for an application to run in production
+// dev-dependencies -> tools only needed for development and testing
+
+
+// uninstall a package   ->   npm uninstall <packageName>
+
+// package.json ->
+// The project's manifest that defines dependencies, scripts, and other high-level configurations. Developers can edit package.json to update dependencies, scripts, or configurations. 
+
+// package-lock.json ->
+// A lockfile that records the exact versions of dependencies and their installation paths. npm automatically manages package-lock.json to prevent conflicts and ensure consistent installation. 
